@@ -1,6 +1,6 @@
 {
     "name": "phpwatch/wordpress-clear-logout",
-    "description": "A tiny WordPress plugin to clear all browser data related to the site upon logout (With `Clear-SiteData` header)",
+    "description": "A tiny WordPress plugin to clear all browser data related to the site upon logout (With `Clear-Site-Data` header)",
     "type": "wordpress-plugin",
     "license": "GPL-2.0-or-later",
     "homepage": "https://wordpress.org/plugins/clear-logout/",
