@@ -20,9 +20,9 @@ This plugin prevents possible security vulnerabilities such as clicking the "Bac
 
 == Installation ==
 
-1. Upload the plugin directory to the `/wp-content/plugins/ directory, or install the plugin through the WordPress plugins screen directly.
-2. Activate the plugin through the 'Plugins' screen in WordPress.
-3. You are all set! There is nothing to configure. All existing users passwords will be rehashed on their next successful login. There is no configuration UI; it just works.
+1. Upload the downloaded plugin directory to `/wp-content/plugins/` directory, or install the plugin through the WordPress plugins screen directly.
+2. Activate the plugin from the 'Plugins' screen in WordPress.
+3. You are all set! There is nothing to configure. When users logout, the `Clear-Site-Data` header will be sent automatically.
 
 
 == Frequently Asked Questions ==
