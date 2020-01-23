@@ -23,7 +23,7 @@ License: GPLv2 or later
 \add_action('wp_logout', static function () {
 	$clear = \defined('WP_CLEAR_LOGOUT_CLEAR') && \is_string(\WP_CLEAR_LOGOUT_CLEAR)
 		? \str_replace(["\n","\r"], '', \WP_CLEAR_LOGOUT_CLEAR)
-		: '*';
+		: '"*"';
 
 	\header('Clear-Site-Data: ' . $clear);
 });
