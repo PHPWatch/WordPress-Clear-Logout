@@ -11,10 +11,10 @@ License: GPLv2 or later
 
 /**
  * The crux of the plugin. If a global constant string named
- * "WP_CLEAR_LOGOUT_CLEAR" is set at run time, take its value, remove
+ * "WP_CLEAR_LOGOUT_CLEAR" is set at run time, take its value, and remove
  * new lines (to prevent header injection attacks).
  *
- * If no value is set, it uses "*" which indicates to remove all browser
+ * If no value is set, use "*" which indicates to remove all browser
  * storage for this site (currently equivalent to "cache", "cookies", "storage", "executionContexts")
  *
  * In the interest of best security, this plugin assumes "*" to account for
