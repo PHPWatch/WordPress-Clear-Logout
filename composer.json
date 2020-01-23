@@ -11,6 +11,11 @@
             "homepage": "https://ayesh.me"
         }
     ],
+    "support": {
+        "issues": "https://github.com/phpwatch/wordpress-clear-logout/issues",
+        "forum": "https://wordpress.org/support/plugin/clear-logout/",
+        "source": "https://github.com/phpwatch/wordpress-clear-logout"
+    },
     "keywords": ["security", "logout", "authentication", "wordpress", "wordpress-security", "wordpress-plugin"],
     "minimum-stability": "stable",
     "require": {
