@@ -1,0 +1,26 @@
+{
+    "name": "phpwatch/wordpress-clear-logout",
+    "description": "A tiny WordPress plugin to clear all browser data related to the site upon logout (With `Clear-SiteData` header)",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0-or-later",
+    "homepage": "https://wordpress.org/plugins/clear-logout/",
+    "authors": [
+        {
+            "name": "Ayesh Karunaratne",
+            "email": "ayesh@ayesh.me",
+            "homepage": "https://ayesh.me"
+        }
+    ],
+    "keywords": ["security", "logout", "authentication", "wordpress", "wordpress-security", "wordpress-plugin"],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.6.0",
+        "composer/installers": "~1.0"
+    },
+    "suggest": {
+        "phpwatch/wordpress-security-advisories": "Prevents accidental installation of WordPress core, themes, and plugins with known vulnerabilities."
+    },
+    "autoload": {
+        "files": ["clear-logout.php"]
+    }
+}
