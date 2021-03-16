@@ -2,8 +2,8 @@
 Contributors: ayeshrajans
 Tags: password, security, logout, authentication
 Requires at least: 5.1
-Tested up to: 5.4
-Stable tag: 1.1
+Tested up to: 5.7
+Stable tag: 1.2
 Requires PHP: 5.6
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -46,4 +46,7 @@ All mainstream browsers do. Google Chrome 61+, Firefox 63+, and their current mo
 
 
 = 1.1 =
+* Update supported up-to version number.
+
+= 1.2 =
 * Update supported up-to version number.

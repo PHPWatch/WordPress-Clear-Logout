@@ -3,7 +3,7 @@
 Plugin Name: Clear Logout
 Plugin URI: https://wordpress.org/plugins/clear-logout/
 Description: A tiny WordPress plugin to clear all browser data related to the site upon logout (With `Clear-Site-Data` header).
-Version: 1.1
+Version: 1.2
 Author: Ayesh Karunaratne
 Author URI: https://aye.sh/open-source
 License: GPLv2 or later
