@@ -2,9 +2,9 @@
 Contributors: ayeshrajans
 Tags: password, security, logout, authentication
 Requires at least: 5.1
-Tested up to: 5.7
-Stable tag: 1.2
-Requires PHP: 5.6
+Tested up to: 6.3
+Stable tag: 1.4
+Requires PHP: 7.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -12,7 +12,7 @@ A tiny WordPress plugin to clear all browser data related to the site upon logou
 
 == Description ==
 
-This plugin ensures that when users of your web site (including site administrators), the browsers are instructed to clear all residue such as cookies and caches to enhance the security.
+This plugin ensures that when users of your website (including site administrators), the browsers are instructed to clear all residue such as cookies and caches to enhance the security.
 
 [`Clear-Site-Data` HTTP header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Clear-Site-Data) is sent when a user logs out, which supported browsers will react by removing all existing cookies, cache, and other storage. It will **not** remove saved passwords, permissions, adblocker rules, and other data that are supposed to be permanent.
 
@@ -44,9 +44,12 @@ All mainstream browsers do. Google Chrome 61+, Firefox 63+, and their current mo
 = 1.0 =
 * Initial release.
 
-
 = 1.1 =
 * Update supported up-to version number.
 
 = 1.2 =
 * Update supported up-to version number.
+
+= 1.4 =
+* Requires PHP 7.1+
+* Tested upto WordPress 6.3

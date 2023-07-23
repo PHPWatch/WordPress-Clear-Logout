@@ -16,10 +16,10 @@
         "forum": "https://wordpress.org/support/plugin/clear-logout/",
         "source": "https://github.com/phpwatch/wordpress-clear-logout"
     },
-    "keywords": ["security", "logout", "authentication", "wordpress", "wordpress-security", "wordpress-plugin"],
+    "keywords": ["security", "logout", "cookies", "authentication", "wordpress", "wordpress-security", "wordpress-plugin"],
     "minimum-stability": "stable",
     "require": {
-        "php": ">=5.6.0",
+        "php": ">=7.1.0",
         "composer/installers": "~1.0"
     },
     "suggest": {

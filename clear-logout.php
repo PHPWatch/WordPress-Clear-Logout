@@ -3,7 +3,7 @@
 Plugin Name: Clear Logout
 Plugin URI: https://wordpress.org/plugins/clear-logout/
 Description: A tiny WordPress plugin to clear all browser data related to the site upon logout (With `Clear-Site-Data` header).
-Version: 1.2
+Version: 1.4
 Author: Ayesh Karunaratne
 Author URI: https://aye.sh/open-source
 License: GPLv2 or later
@@ -20,10 +20,10 @@ License: GPLv2 or later
  * In the interest of best security, this plugin assumes "*" to account for
  * future storage options browsers might add in the future.
  */
-\add_action('wp_logout', static function () {
-	$clear = \defined('WP_CLEAR_LOGOUT_CLEAR') && \is_string(\WP_CLEAR_LOGOUT_CLEAR)
-		? \str_replace(["\n","\r"], '', \WP_CLEAR_LOGOUT_CLEAR)
+add_action('wp_logout', static function (): void {
+	$clear = defined('WP_CLEAR_LOGOUT_CLEAR') && is_string(\WP_CLEAR_LOGOUT_CLEAR)
+		? str_replace(["\n","\r"], '', \WP_CLEAR_LOGOUT_CLEAR)
 		: '"*"';
 
-	\header('Clear-Site-Data: ' . $clear);
+	header('Clear-Site-Data: ' . $clear);
 });
